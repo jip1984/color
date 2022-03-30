@@ -1,0 +1,30 @@
+form .search{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search{
+    margin-top: 3rem;
+
+}
+
+.search input {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+}
+
+form button{
+    padding: 5px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+    font: bold;
+}
+
+form button:hover{
+    cursor: pointer;
+}
